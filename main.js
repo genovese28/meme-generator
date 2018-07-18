@@ -15,7 +15,6 @@ $(function() {
       `<img src=${gif} alt= 'Be Happy' height= '200' width= '200'> `
     );
     //<img src="smiley.gif" alt="Smiley face" height="42" width="42">
-
     let bottomLine = $(`<H1>${bottomText}</H1>`);
     // // add a CSS class to it
     // newParagraph.addClass('thing');
@@ -24,5 +23,16 @@ $(function() {
       .append(newParagraph)
       .append(newImage)
       .append(bottomLine);
+
+    $('#btn').click(function() {
+      /* Single line Reset function executes on click of Reset Button */
+      $('#form')[0].reset();
+    });
+
+    $('#btn').click(function() {
+      $(newParagraph).hide();
+      $(newImage).hide();
+      $(bottomLine).hide();
+    });
   });
 });
