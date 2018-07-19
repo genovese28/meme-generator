@@ -10,12 +10,12 @@ $(function() {
     let bottomText = $('#bottom').val();
     let gif = $('#url').val();
 
-    let newParagraph = $(`<H1>${topText}</H1>`);
+    let newParagraph = $(`<p>${topText}</p>`);
     let newImage = $(
       `<img src=${gif} alt= 'Be Happy' height= '300' width= '300'> `
     );
     //<img src="smiley.gif" alt="Smiley face" height="42" width="42">
-    let bottomLine = $(`<H1>${bottomText}</H1>`);
+    let bottomLine = $(`<p>${bottomText}</p>`);
     // // add a CSS class to it
     // newParagraph.addClass('thing');
     // // add it to the div id="container"

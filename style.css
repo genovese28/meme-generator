@@ -11,14 +11,17 @@ input {
   height: 25px;
 }
 
-#title {
+h1 {
   color: blueviolet;
   text-transform: uppercase;
   text-shadow: 2px 2px red;
 }
 
-h1 {
-  color: darkblue;
+p {
+  font-style: oblique;
+  font-family: cursive;
+  font-size: 30px;
+  color: blueviolet;
   text-transform: uppercase;
 }
 #form {
