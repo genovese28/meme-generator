@@ -1,5 +1,5 @@
 #btn {
-  background-color: #db70bf;
+  background-color: rgb(255, 192, 247);
   width: 70px;
 }
 
@@ -13,7 +13,7 @@ input {
 
 h1 {
   color: blueviolet;
-  text-transform: uppercase;
+  text-transform: capitalize;
   text-shadow: 2px 2px red;
 }
 

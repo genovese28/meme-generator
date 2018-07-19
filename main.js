@@ -24,15 +24,17 @@ $(function() {
       .append(newImage)
       .append(bottomLine);
 
-    $('#btn').click(function() {
-      /* Single line Reset function executes on click of Reset Button */
-      $('#form')[0].reset();
-    });
+    // $('#btn').click(function() {
+    //   /* Single line Reset function executes on click of Reset Button */
+    //   $('#form')[0].reset();
+    // });
 
     $('#btn').click(function() {
       $(newParagraph).hide();
       $(newImage).hide();
       $(bottomLine).hide();
     });
+
+    $('form').trigger('reset');
   });
 });
