@@ -1,8 +1,38 @@
+#btn {
+  background-color: palevioletred;
+  width: 70px;
+}
+
 input {
   border-radius: 5px;
   border-width: 2px;
+  background-color: aqua;
+  width: 200px;
+  height: 25px;
 }
 
-.thing {
+#title {
+  color: blueviolet;
+  text-transform: uppercase;
+  text-shadow: 2px 2px red;
+}
+
+h1 {
+  color: darkblue;
+  text-transform: uppercase;
+}
+#form {
   color: blue;
+  font-size: 20px;
+  font-family: fantasy;
+  text-transform: lowercase;
+}
+
+button {
+  border-radius: 5px;
+  border-width: 2px;
+  background-color: red;
+  color: black;
+  width: 70px;
+  height: 25px;
 }

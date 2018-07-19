@@ -12,7 +12,7 @@ $(function() {
 
     let newParagraph = $(`<H1>${topText}</H1>`);
     let newImage = $(
-      `<img src=${gif} alt= 'Be Happy' height= '200' width= '200'> `
+      `<img src=${gif} alt= 'Be Happy' height= '300' width= '300'> `
     );
     //<img src="smiley.gif" alt="Smiley face" height="42" width="42">
     let bottomLine = $(`<H1>${bottomText}</H1>`);
