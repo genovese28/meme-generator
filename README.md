@@ -1,5 +1,5 @@
 # Meme Generator
 
-Test
+JQuery, HTML, CSS
 
 ![My Screenshot](./screen.png)
