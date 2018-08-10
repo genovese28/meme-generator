@@ -2,4 +2,4 @@
 
 JQuery, HTML, CSS
 
-![My Screenshot](./screen.png)
+![Screenshot](memes.png)
