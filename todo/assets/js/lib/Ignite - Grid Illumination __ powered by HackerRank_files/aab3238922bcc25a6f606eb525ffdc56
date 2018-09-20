@@ -1,0 +1,3 @@
+#tabui, #tabenv, #tabfaq {
+  display: none;
+}
